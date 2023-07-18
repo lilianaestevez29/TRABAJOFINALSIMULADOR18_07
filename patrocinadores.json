@@ -1,0 +1,20 @@
+{
+  "patrocinadores": [
+    {
+      "nombre": "GOOGLE",
+      "img": "./img/google.png"
+    },
+    {
+      "nombre": "3M",
+      "img": "./img/3m.png"
+    },
+    {
+      "nombre": "IBM",
+      "img": "./img/ibm.png"
+    },
+    {
+      "nombre": "CNN",
+      "img": "./img/cnn.png"
+    }
+  ]
+}

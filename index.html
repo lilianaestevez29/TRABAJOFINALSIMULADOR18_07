@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- Sweet Alert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.css">
+
+    <title>Simulador de Préstamos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simulador de Préstamos</h1>
+    </header>
+    <main>
+        <div>
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" value="">
+        </div>
+        <div>
+            <label for="monto">Monto a solicitar:</label>
+            <input type="number" id="monto" value="">
+        </div>
+        <div>
+            <label for="plazo">Plazo a pagar:</label>
+            <input type="number" id="plazo" value="">
+        </div>
+        <button id="simular">Cálculo de Préstamo 💻</button>
+        <div id="resultado"></div>
+        <div id="historial"></div>
+
+        <button id="cargarPatrocinadores">Ver Patrocinadores</button>
+
+        <div id="patrocinadoresContainer"></div>
+
+
+    </main>
+    <script defer src="./js/proyectoIntegrador.js"></script>
+    <!-- Sweet Alert JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+
+</body>
+
+</html>
